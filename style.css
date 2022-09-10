@@ -1,4 +1,130 @@
+body,html {
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        margin-left:10%;
+        margin-right:10%;
+        margin-bottom:10%;
+        margin-top:1%;
+        background-image: url("mainbg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        box-shadow: inset 0 0 0 1200px rgba(0,0,0,.6);
+
+
+
+      }
+
+
+      .header {
+        position: static;
+        width: 100%;
+        height: 100px;
+        font-weight: bold;
+        font-family: 'Silkscreen', cursive;
+        text-align: center;
+        background: transparent;
+        transition: .3s;
+        color: white
+      }
+.navbar{
+  position: absolute;
+    left: 50%;
+}
+.span1{
+  position: relative;
+  left: -50%
+}
+      .navbar ul {
+        list-style-type: none;
+        margin: -50px;
+        padding: -50px;
+        overflow: hidden;
+        background-color: transparent;
+        display: block;
+      }
+      .navbar li{
+        float: left;
+        display: block;
+      }
+      .navbar li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        display: block;
+      }
+
+.responsive1{
+  width: 35%;
+  height:auto;
+  padding-left:10px;
+  margin-left: 10px;
+}
+
+.responsive{
+  width: 100%;
+  height:auto;
+  float: right
+  padding: 3px;
+}
+
 h1 {
-    text-align: center;
-    font-size: 40px;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+/*captioning*/
+#portrait{
+    text-align:center;
+    margin:0px 0px 10px;
+    color: white;
+    font-size: 10px
+    width
+}
+/*info borders*/
+#infoboxed{
+  width: contain;
+  border: 3px solid #66ffff;
+  padding: 5px;
+  color:white;
+  margin-top: 10px;
+  margin-bottom: auto;
+}
+
+#mangasample{
+  text-align: center;
+  color: white;
+  font-size: 10px
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 17px
+}
+
+p {
+  color: white;
+}
+
+ul {
+  color: white;
 }
