@@ -1,39 +1,27 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  margin: 25px;
-  background-image: url("mainbg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1200px rgba(0,0,0,.5);
-}
-
-header {
-  position: fixed;
-  width: 100%;
-  padding: 55px;
-  margin: 25 10 10 10px;
-  border: 10px;
-  border-color: aquamarine;
-}
-
-
-.content {
-  margin: 20px;
+  margin:0;
 }
 
 nav {
   overflow: hidden;
   background-color: #333;
+  position: fixed;
   top: 0;
   width: 100%;
-
+}
+nav ul {
+  margin:0;
+  padding:0;
 }
 
-nav a {
-  /* float: left; */
-  display:inline-block;
+nav li {
+  float: left;
+  list-style-type: none;
+}
+
+nav li a {
+  float: left;
+  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -41,34 +29,37 @@ nav a {
   font-size: 17px;
 }
 
-nav a:hover {
+nav li a:hover {
   background: #ddd;
   color: black;
 }
 
+.content {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+.content h1 {
+  font: 64px lato;
+  text-align: center;
+}
+.mmbSection {
+  margin: 0;
+  border: 0;
+  padding: 40 10px;
+}
 
-h1 {
-  color: white;
-  font-size: 48px;
+.mName{
+  width: 50%;
+  display: inline;
+  font: 20px lato;
   font-weight: bold;
 }
-
-h2 {
-  color: white;
-  font-weight: bold;
+.mId {
+  width: 50%;
+  display: inline;
+  font: 20px lato;
 }
-
-h3 {
-  color: white;
-  font-weight: bold;
-  text-decoration: underline;
-  font-size: 17px
-}
-
-p {
-  color: white;
-}
-
-ul {
-  color: white;
+.mPi {
+  font: 1.05rem Amaranth;
 }
