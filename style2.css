@@ -1,0 +1,47 @@
+html,body, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: 14px arial;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: #cccccc;
+    position: fixed;
+    margin: 0;
+    clear: both;
+    top: 0;
+}
+
+nav {
+    background: #000000;
+    height: 60px;
+    text-align:center;
+    z-index:99;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+}
+nav li a {
+    font-size: 16px;
+    color: #fe6700;
+    display: block;
+    line-height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+nav li a:hover {
+    color: #000000;
+    background: #fe6700;
+}
+.content {
+    margin-top: 80px;
+}
