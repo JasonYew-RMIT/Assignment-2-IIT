@@ -43,6 +43,7 @@ nav li a:hover {
 .content {
   padding: 16px 0 ;
   margin-top: 30px;
+
   height: auto;
 }
 .content h1 {
@@ -62,6 +63,8 @@ nav li a:hover {
   margin: 0;
   border: 0;
   padding: 40 10px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .mName{
@@ -69,18 +72,23 @@ nav li a:hover {
   display: inline;
   font: 20px lato;
   font-weight: bold;
+
 }
 .mId {
   width: 50%;
   display: inline;
   font: 20px lato;
+  
 }
 .mPi {
   font: 1.05rem Amaranth;
+
 }
 .tools-content p{
   margin: auto;
   font: 20px Amaranth;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 
