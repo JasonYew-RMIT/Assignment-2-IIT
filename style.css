@@ -35,14 +35,23 @@ nav li a:hover {
 }
 
 .content {
-  padding: 16px;
+  padding: 16px 0 ;
   margin-top: 30px;
-  height: 1500px;
+  height: auto;
 }
 .content h1 {
   font: 64px lato;
   text-align: center;
+  padding: 248 64px;
 }
+.grid-1 {
+  text-align: center;
+  font: 35px lato;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
 .mmbSection {
   margin: 0;
   border: 0;
@@ -62,4 +71,40 @@ nav li a:hover {
 }
 .mPi {
   font: 1.05rem Amaranth;
+}
+
+
+/* ---------- */
+.iD-grid-1 {
+  text-align: center;
+  padding: 80px 10;
+  font: 24px lato;
+}
+
+
+/* ------------ */
+
+.tech-grid {
+  padding: 0 15px;
+}
+
+.it-grid-1 h1{
+  text-align: center;
+  padding: 150px;
+  font: 60px lato;
+}
+
+h2 {
+  font: 45px lato;
+  text-decoration: underline;
+}
+h3 {
+  font:1.65em Amaranth ;
+}
+
+h4 {
+  font: 18px Amaranth;
+}
+.it-content-grid {
+  font: 15px cursive;
 }
