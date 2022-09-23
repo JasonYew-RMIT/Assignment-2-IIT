@@ -60,11 +60,10 @@ nav li a:hover {
 }
 
 .mmbSection {
-  margin: 0;
+  margin: 0 10%;
   border: 0;
   padding: 40 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+
 }
 
 .mName{
@@ -81,12 +80,12 @@ nav li a:hover {
   
 }
 .mPi {
-  font: 1.05rem Amaranth;
+  font: 1.05rem Helvetica;
 
 }
 .tools-content p{
   margin: auto;
-  font: 20px Amaranth;
+  font: 20px Helvetica;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -105,6 +104,7 @@ nav li a:hover {
 .tech-grid {
   padding: 0 15px;
   border-bottom: 2px #333 solid;
+  margin: 0 10%;
 }
 
 .it-grid-1 h1{
@@ -119,24 +119,31 @@ nav li a:hover {
   color: white; */
 }
 
+.itP {
+  font: 17px Helvetica;
+  margin: 0 10%;
+  border-bottom: 1px black solid;
+}
+
 h2 {
-  font: 45px lato;
+  font: 45px Helvetica;
   text-decoration: underline;
-  margin: 20px 0;
+  margin: 20px 10%;
 }
 .tech-grid h3 {
-  font:1.65em Amaranth ;
+  font:1.65em Helvetica ;
 }
 
 h4 {
-  font: 18px Amaranth;
+  font: 18px Helvetica;
+  font-weight: bold;
 }
 h5{
-  font: 16px Amaranth;
+  font: 16px Helvetica;
   margin: auto;
 }
 .it-content-grid {
-  font: 15px cursive;
+  font: 15px Helvetica;
 }
 
 /* project.html */
