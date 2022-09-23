@@ -39,7 +39,7 @@ nav li a:hover {
   background: #ddd;
   color: black;
 }
-/* main.html */
+/* index.html */
 .content {
   padding: 16px 0 ;
   margin-top: 30px;
@@ -97,25 +97,6 @@ nav li a:hover {
   padding: 80px 10;
   font: 24px lato;
 }
-.ideal-jobs-table {
-  border-collapse: collapse;
-  margin: 0 10%;
-}
-.ideal-jobs-table td:first-child {
-  background-color: #808080;
-}
-.ideal-jobs-table tr:first-of-type {
-  background-color: #808080;
-}
-.ideal-jobs-table tr:nth-last-of-type(even) {
-  background-color: #f3f3f3;
-}
-.ideal-jobs-table, th, td {
-  border: 1px solid black;
-}
-.ideal-jobs-table th, .ideal-jobs-table td{
-  padding: 12px 15px;
-}
 
 
 /* it.html */
@@ -164,4 +145,5 @@ h5{
 .it-content-grid {
   font: 15px Helvetica;
 }
+
 /* project.html */
