@@ -97,6 +97,16 @@ nav li a:hover {
   padding: 80px 10;
   font: 24px lato;
 }
+.ideal-jobs-table {
+  border-collapse: collapse;
+  margin: 0 10%;
+}
+.ideal-jobs-table, th, td {
+  border: 1px solid black;
+}
+.ideal-jobs-table th, .ideal-jobs-table td{
+  padding: 12px 15px;
+}
 
 
 /* it.html */
@@ -144,8 +154,5 @@ h5{
 }
 .it-content-grid {
   font: 15px Helvetica;
-}
-table, th, td {
-  border: 1px;
 }
 /* project.html */
