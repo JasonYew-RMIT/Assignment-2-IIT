@@ -87,15 +87,35 @@ nav li a:hover {
 margin: 5px 10%;
 }
 .tools-content p{
-  margin: auto;
+  margin: 20px 10% 0;
   font: 15px Helvetica;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 .tools-content span{
   margin: 5px 10%;
   }
-
+.tools-link ul {
+  margin: auto 10%;
+  padding: 0;
+}
+.tools-link li {
+  list-style-type: none;
+  margin: auto;
+  width: 100%;
+}
+.tools-link a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  font-size: 17px;
+  border:1px solid #333;
+}
+.tools-link a:hover {
+  background-color: #333;
+  color: #f3f3f3;
+}
 
 /* indt.html */
 .iD-grid-1 {
@@ -125,6 +145,9 @@ margin: 5px 10%;
 
 .indt-content {
   margin: 0 10%;
+}
+.indt-content p,li {
+  font: 17px Helvetica;
 }
 
 /* it.html */
@@ -181,4 +204,7 @@ h5{
 .project-content h3 {
   font: 2.2rem open sans;
   margin: 0 auto;
+}
+.project-content p {
+  font: 17px Helvetica;
 }
