@@ -145,5 +145,7 @@ h5{
 .it-content-grid {
   font: 15px Helvetica;
 }
-
+table, th, td {
+  border: 1px;
+}
 /* project.html */
