@@ -142,7 +142,9 @@ margin: 5px 10%;
 .ideal-jobs-table th, .ideal-jobs-table td{
   padding: 12px 15px;
 }
-
+.group-skills {
+  margin: 0 10%;
+}
 .indt-content {
   margin: 0 10%;
 }
