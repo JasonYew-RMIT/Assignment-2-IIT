@@ -101,6 +101,12 @@ nav li a:hover {
   border-collapse: collapse;
   margin: 0 10%;
 }
+.ideal-jobs-table tr:nth-of-type(first) {
+  background-color: #808080;
+}
+.ideal-jobs-table tr:nth-last-of-type(even) {
+  background-color: #f3f3f3;
+}
 .ideal-jobs-table, th, td {
   border: 1px solid black;
 }
