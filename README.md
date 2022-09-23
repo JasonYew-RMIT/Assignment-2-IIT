@@ -10,3 +10,5 @@ Reza Syahpytra Koto- s3940230@student.rmit.edu.au
 https://rz117.github.io/Assignment-1/  
 Fernando Louis Tumeleng- s3887296@student.rmit.edu.au  
 https://fernandolouis24.github.io/Assignment-1-Introduction-to-IT-/
+##### Meetings and notes
+https://rmiteduau.sharepoint.com/:f:/r/sites/IntrotoITWed03/Shared%20Documents/General?csf=1&web=1&e=aneAjZ
