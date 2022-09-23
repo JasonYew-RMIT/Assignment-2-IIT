@@ -127,9 +127,6 @@ margin: 5px 10%;
   border-collapse: collapse;
   margin: 0 10%;
 }
-.ideal-jobs-table td:first-child {
-  background-color: #808080;
-}
 .ideal-jobs-table tr:first-of-type {
   background-color: #808080;
 }
